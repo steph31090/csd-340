@@ -1,2 +1,4 @@
-# csd-340
-Repository for CSD-340 course.
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- Sue Sampson
+- Stephanie Ramos
