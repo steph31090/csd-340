@@ -1,0 +1,71 @@
+/* Stephanie Ramos */
+/* August 24, 2025 */
+/* Module 3.3 Assignment */
+
+/* This code includes the layout and visuals for the webpage */
+
+/* Header centered */
+h1 {
+    text-align: center;
+}
+
+/* Side-by-side divs */
+.left-div, 
+.right-div {
+    width: 45%;
+}
+
+/* Side-by-side layout */
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* h3 headings */
+h3 {
+    font-weight: 500;
+}
+
+/* Lists */
+ol, ul {
+    font-weight: 300;
+    list-style-position: inside; 
+}
+
+/* Solid red border box */
+.left-div {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Dashed red border box */
+.right-div {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Unordered list in Roman numerals */
+.right-div ul {
+    list-style-type: upper-roman;
+    font-weight: 300;
+    padding: 10px;
+}
+
+/* Last div */
+.last-div {
+    width: 100%;
+    margin-top: 60%;   
+    margin-bottom: 20px;
+    text-align: right; 
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
