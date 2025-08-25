@@ -1,0 +1,38 @@
+/* Stephanie Ramos */
+/* August 23, 2025 */
+/* Module 3.2 Assignment */
+
+/* CSS for index.html*/
+
+/* Layout container */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    background-color: #778899;
+    color: white;
+    border: 1px solid #d6a800;
+    padding: 10px;
+}
+
+/* Link states */
+a {
+    color: #5a7d9a;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A9A9A9;
+}
+
+a:hover {
+    color: #8ca6bf
+}
+
+a:active {
+    color: #5A7D9A;
+}
