@@ -1,0 +1,114 @@
+/*Stephanie Ramos
+    September 6, 2025
+    Module 6.2 CSS File
+*/
+
+/*Headers*/
+header {
+    background-color:rgba(112, 137, 161, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/*Navigation Bar*/
+#navbar {
+    background-color: rgba(112, 137, 161, 1);
+    overflow: hidden;
+    border-bottom: 15px solid rgba(51, 73, 94, 1);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: rgba(199, 217, 231, 1);
+    color: rgba(51, 73, 94, 1);
+}
+
+/*Main Content*/
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgba(51, 73, 94, 1);  
+}
+/* Movies Table*/
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th{
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(51, 73, 94, 1);
+    color: white;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Footer*/
+footer {
+    background-color: rgba(112, 137, 161, 1);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    color: rgba(199, 217, 231, 1);
+    padding: 10px;
+}
+footer p {
+    color: rgba(199, 217, 231, 1); 
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;    
+}
+
+footer a {
+    color: rgba(199, 217, 231, 1);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
