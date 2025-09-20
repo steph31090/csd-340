@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!-- Stephanie Ramos
+ September 19th, 2023
+ Assignment 9.3 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link href="Ramos_Mod9_3.css" type="text/css" rel="stylesheet" />
+    <meta name="description"
+        content="This is a web page created for Module 9, Assignment 9.3 of CSD 340." />
+    <meta name="robots" 
+        content="noindex" />
+    <meta http-equiv="author"
+        content="Stephanie Ramos" />
+    <meta http-equiv="pragma"
+        content="no-cache" />
+    
+    <script>
+        // variables
+        var firstVariableValue = "California";
+        var secondVariableValue = "games";
+        var thirdVariableValue = "technology";
+        var fourthVariableValue = "family";
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter 1: About me</h2>
+
+        <p>My name is Stephanie Ramos, and I grew up in sunny <span id="California">__________</span>. 
+            I have always enjoyed warm weather, bright days, and the chance to explore new places close to home. 
+            Those early experiences shaped my love for adventure and learning.
+        </p>
+
+        <p>In my free time, I enjoy reading books and playing video <span id="games">__________</span>. 
+            These hobbies allow me to relax while also sparking creativity. 
+            They balance out the focus and structure required for my schoolwork.
+        </p>
+
+        <p>My long-term goal is to work in <span id="technology">__________</span>, creating solutions that make a positive difference. 
+            At the same time, I value spending time with my <span id="family">__________</span>, because they bring me encouragement and joy every step of the way.
+        </p>
+        
+        <p>
+            <button type="button"
+                onclick="document.getElementById('California').innerHTML = firstVariableValue">California</button> <br />
+            <button type="button"
+                onclick="document.getElementById('games').innerHTML = secondVariableValue">games</button> <br />
+            <button type="button"
+                onclick="document.getElementById('technology').innerHTML = thirdVariableValue">technology</button> <br />
+            <button type="button"
+                onclick="document.getElementById('family').innerHTML = fourthVariableValue">family</button> <br />
+        </p>
+
+        <hr />
+        <address>
+            <p><a href="http://www.bellevue.edu" target="_blank">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+</body>
+</html>
