@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+  <!-- Stephanie Ramos
+   September 28, 2025
+   Assignment 10.3 -->
+
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>
+      CSD 340 Web Development with HTML and CSS
+    </title>
+
+    <script>
+      function toggleImage(img, first, second) {
+        if (img.src.indexOf(first) !== -1) {
+          img.src = second;
+        } else {
+          img.src = first;
+        }
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <!-- Day/Night -->
+    <div>
+      <img src="day.jpg" alt="Day scene" width="300"
+           onclick="toggleImage(this,'day.jpg','night.jpg')">
+    </div>
+    <br />
+    <div
+         onmouseover="this.style.color='red';"
+         onmouseout= "this.style.color='black';">
+      Click the image to change between Day and Night.
+      <br />
+    </div>
+
+    <!-- Spring/Fall -->
+    <div>
+      <img src="spring.jpg" alt="Spring scene" width="300"
+           onclick="toggleImage(this,'spring.jpg','fall.jpg')">
+    </div>
+    <br />
+    <div
+         onmouseover="this.style.color='red';"
+         onmouseout= "this.style.color='black';">
+      Click the image to change between Spring and Fall.
+      <br />
+    </div>
+
+  </body>
+</html>
